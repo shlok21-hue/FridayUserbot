@@ -19,14 +19,14 @@ PREV_REPLY_MESSAGE = {}
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
-CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**If You Want You Can Leave A Message Here ! My Boss Will Surely See And Reply To You Soon !**"
+CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**If You Want You Can Leave A Message Here ! My Peru Master Will Surely See And Reply To You Soon !**"
 USER_BOT_WARN_ZERO = "You Were \n`╔══╗╔╗──────╔╗──────╔╗\n║╔╗║║║──────║║──────║║\n║╚╝╚╣║╔══╦══╣║╔╦══╦═╝║\n║╔═╗║║║╔╗║╔═╣╚╝╣║═╣╔╗║\n║╚═╝║╚╣╚╝║╚═╣╔╗╣║═╣╚╝║\n╚═══╩═╩══╩══╩╝╚╩══╩══╝` \nDue To Trying To Spam Inbox Of My Master !"
-USER_BOT_NO_WARN = ("`Hello My Friend ! This is` **F.R.I.D.A.Y**\n"
-                    "`Private Messaging Security Protocol ⚠️`\n\n"
-                    "**Currently My Boss**\n"
-                    f"{DEFAULTUSER} is Busy ! Please Don't Spam My Masters Inbox\n\n"
+USER_BOT_NO_WARN = ("`Hello Friend ! This is` **Liquid Death**\n"
+                    "`This Private Messaging Security Protocol ⚠️`\n\n"
+                    "**Currently My Peru Master **\n"
+                    f"{DEFAULTUSER} is Busy !!!!!!! Please Don't Spam In Inbox\n\n"
                     f"{CUSTOM_MIDDLE_PMP} \n\n"
-                    "**Kindly Send** `/start` **If You Want To Register Your Request**")
+                    "**Kindly Send** `/start` **and if You Want To Register Your Request and leave 10k$ And a Pack of Cigar My Master Will Reply In 2000 Light Years**")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
